@@ -20,3 +20,4 @@ router.route("/:id")
 router.put("/:id/cancel", cancelBooking);
 
 module.exports = router;
+

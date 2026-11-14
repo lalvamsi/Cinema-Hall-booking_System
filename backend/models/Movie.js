@@ -125,3 +125,4 @@ const Movie = {
 };
 
 module.exports = Movie;
+

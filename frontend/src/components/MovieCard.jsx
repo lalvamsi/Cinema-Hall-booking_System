@@ -90,3 +90,4 @@ export default function MovieCard({ movie, onSelectMovie }) {
     </div>
   );
 }
+

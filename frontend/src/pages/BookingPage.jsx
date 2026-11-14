@@ -318,3 +318,4 @@ export default function BookingPage({ show, movie, onBack, onViewAllBookings }) 
     </div>
   );
 }
+

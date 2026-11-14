@@ -217,3 +217,4 @@ npm start
 - **Frontend**: React 18, Vite, Lucide React Icons, Responsive Cinematic CSS & Google Fonts (*Outfit* and *Plus Jakarta Sans*).
 - **Backend**: Node.js, Express.js, CORS, Dotenv, Crypto.
 - **Database**: MongoDB & Mongoose ORM with embedded local persistence fallback.
+

@@ -175,3 +175,4 @@ export default function TicketPass({ booking, onBackToHome, onViewAllBookings })
     </div>
   );
 }
+

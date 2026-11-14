@@ -85,3 +85,4 @@ export default function Navbar({ currentView, setCurrentView, searchQuery, setSe
     </header>
   );
 }
+

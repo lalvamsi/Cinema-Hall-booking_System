@@ -107,3 +107,4 @@ const Booking = {
 };
 
 module.exports = Booking;
+

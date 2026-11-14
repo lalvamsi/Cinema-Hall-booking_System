@@ -205,3 +205,4 @@ export default function Home({ movies, onSelectMovie, searchQuery, loading }) {
     </div>
   );
 }
+

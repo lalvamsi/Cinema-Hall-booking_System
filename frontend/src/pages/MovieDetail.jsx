@@ -256,3 +256,4 @@ export default function MovieDetail({ movie, onBack, onSelectShow }) {
     </div>
   );
 }
+
