@@ -14,16 +14,6 @@ Features an interactive visual seat selection matrix (VIP Recliner, Executive Go
   - Search movies in real-time by title, cast, or genre.
   - Rich movie profiles with synopsis, director, cast, runtime, certificate (*UA, A, U*), and ratings.
 
-- **💺 Interactive Cinema Hall Seat Matrix**:
-  - Curved Cinema Screen with ambient projection glow (`All Eyes This Way`).
-  - Tiered seating arrangement:
-    - 👑 **VIP / Platinum Recliners**: Rows A & B (₹350)
-    - ⭐ **Executive Gold**: Rows C, D & E (₹250)
-    - 🎟️ **Classic Silver**: Rows F, G & H (₹180)
-  - Real-time seat status: **Available**, **Selected**, and **Occupied / Booked**.
-  - Realistic multi-block layout with walkway aisles (Left, Center, Right).
-  - Dynamic seat counter, tier breakdown, and live total calculation.
-
 - **📅 Showtime & Screen Scheduling**:
   - Date selector for today and upcoming dates.
   - Multi-screen scheduling (*Audi 1 - Dolby Atmos 4K, Audi 2 - IMAX Laser 3D, Audi 3 - VIP Luxe Recliner*).
@@ -33,11 +23,6 @@ Features an interactive visual seat selection matrix (VIP Recliner, Executive Go
   - Customer contact details (*Name, Email, Phone Number*).
   - Transparent fee calculation: Ticket Subtotal + 18% GST + Convenience Fee.
   - Mock Payment Gateways (*UPI / QR, Credit/Debit Card, Net Banking*).
-
-- **🎟️ Digital E-Ticket Pass**:
-  - Perforated cinema ticket card design with side cutouts and barcode.
-  - Scannable QR code with unique booking verification code (*e.g. `CHB-849201`*).
-  - One-click **Print / Save as PDF** support.
 
 - **📋 My Bookings Portal**:
   - Search tickets by Booking ID or Customer Email.
@@ -167,48 +152,6 @@ npm start
 
 ---
 
-## 📡 REST API Reference
-
-### Movies
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/movies` | Get all movies (supports `?status=now_showing` and `?search=dune`) |
-| `GET` | `/api/movies/:id` | Get movie details by ID with associated shows |
-| `POST` | `/api/movies` | Create a new movie (Admin) |
-| `PUT` | `/api/movies/:id` | Update movie details |
-| `DELETE` | `/api/movies/:id` | Delete a movie |
-
-### Showtimes
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/shows` | Get shows (supports `?movieId=...` and `?date=YYYY-MM-DD`) |
-| `GET` | `/api/shows/:id` | Get show details with seat occupancy and layout configuration |
-| `POST` | `/api/shows` | Schedule a new show (Admin) |
-| `DELETE` | `/api/shows/:id` | Delete a show |
-
-### Bookings
-| Method | Endpoint | Description |
-|---|---|---|
-| `POST` | `/api/bookings` | Book seats, calculate pricing & lock seats |
-| `GET` | `/api/bookings` | Retrieve bookings (supports `?email=...` and `?bookingId=...`) |
-| `GET` | `/api/bookings/:id` | Get booking details or e-ticket by ID / Code |
-| `PUT` | `/api/bookings/:id/cancel`| Cancel booking and release seats |
-| `GET` | `/api/bookings/admin/stats`| Get overall multiplex analytics & revenue |
-
-### Health Check
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/health` | Check API status, database type, and movie/show counts |
-
----
-
-## 🎟️ Seat Pricing Structure
-
-| Tier | Rows | Price | Amenities |
-|---|---|---|---|
-| **VIP / Platinum** | Rows A, B | ₹350 | Ultra-plush motorized leather recliner, front view, priority lounge service |
-| **Executive Gold** | Rows C, D, E | ₹250 | Premium ergonomic cushioning, optimal viewing angle |
-| **Classic Silver** | Rows F, G, H | ₹180 | Standard cinema seating, full acoustic surround coverage |
 
 ---
 
