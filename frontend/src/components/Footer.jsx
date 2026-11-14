@@ -1,5 +1,5 @@
 import React from "react";
-import { Film, ShieldCheck, Headphones, Heart } from "lucide-react";
+import { Film, ShieldCheck, Headphones } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -51,13 +51,6 @@ export default function Footer() {
             Real-time seat reservation with instant e-ticket pass generation.
           </p>
         </div>
-      </div>
-
-      <div className="max-w-7xl mx-auto pt-6 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-3">
-        <p>© {new Date().getFullYear()} CinePass Multiplex Systems Inc. All rights reserved.</p>
-        <p className="flex items-center gap-1 text-slate-400">
-          Crafted with <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> for cinema lovers
-        </p>
       </div>
     </footer>
   );
