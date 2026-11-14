@@ -1,4 +1,4 @@
-const API_BASE = "/api";
+const API_BASE = import.meta.env.VITE_API_URL || "/api";
 
 export async function fetchMovies(status = "", search = "") {
   const params = new URLSearchParams();
@@ -102,4 +102,3 @@ export async function createShow(showData) {
   if (!res.ok) throw new Error(data.message || "Failed to schedule show");
   return data.data;
 }
-
