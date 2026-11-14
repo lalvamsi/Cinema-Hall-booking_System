@@ -232,7 +232,7 @@ export default function MyBookings({ onBookMovie }) {
                       onClick={() => setSelectedTicket(booking)}
                       className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-400 text-xs font-semibold border border-slate-700 transition"
                     >
-                      <Eye className="w-3.5 h-3.5" /> View E-Ticket
+                      <Eye className="w-3.5 h-3.5" /> View Booking
                     </button>
 
                     {!isCancelled && (

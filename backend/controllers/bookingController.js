@@ -2,16 +2,10 @@ const Booking = require("../models/Booking");
 const Show = require("../models/Show");
 const Movie = require("../models/Movie");
 
-// Helper to determine price based on row letter
+// Simple flat price per seat (₹200)
 function getSeatPrice(seatNumber, ticketPrices) {
-  const row = seatNumber.charAt(0).toUpperCase();
-  if (row === "A" || row === "B") {
-    return { tier: "VIP / Platinum", price: ticketPrices.platinum || 350 };
-  } else if (row === "C" || row === "D" || row === "E") {
-    return { tier: "Gold / Executive", price: ticketPrices.gold || 250 };
-  } else {
-    return { tier: "Silver / Classic", price: ticketPrices.silver || 180 };
-  }
+  const price = (ticketPrices && (ticketPrices.standard || ticketPrices.silver || ticketPrices.gold)) || 200;
+  return { tier: "Standard", price };
 }
 
 // @desc    Create a new booking (Book Seats)
@@ -42,17 +36,11 @@ exports.createBooking = async (req, res) => {
       });
     }
 
-    // Calculate prices
-    let subtotal = 0;
-    let tiers = new Set();
-    seats.forEach(seat => {
-      const { tier, price } = getSeatPrice(seat, show.ticketPrices);
-      subtotal += price;
-      tiers.add(tier);
-    });
-
-    const taxAndFees = Math.round(subtotal * 0.18) + 30; // 18% GST + convenience fee
-    const totalAmount = subtotal + taxAndFees;
+    // Simple calculation: ₹200 per ticket
+    const ticketPrice = (show.ticketPrices && (show.ticketPrices.standard || show.ticketPrices.silver || show.ticketPrices.gold)) || 200;
+    const subtotal = seats.length * ticketPrice;
+    const taxAndFees = 0;
+    const totalAmount = subtotal;
 
     // Generate formatted Booking ID
     const randomSuffix = Math.floor(1000 + Math.random() * 9000);
