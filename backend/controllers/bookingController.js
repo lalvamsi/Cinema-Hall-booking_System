@@ -63,7 +63,7 @@ exports.createBooking = async (req, res) => {
       showDate: show.showDate,
       showTime: show.showTime,
       seats,
-      seatTier: Array.from(tiers).join(", "),
+      seatTier: "Standard",
       customerName,
       customerEmail,
       customerPhone,
