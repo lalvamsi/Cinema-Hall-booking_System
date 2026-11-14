@@ -1,0 +1,1693 @@
+{
+  "movies": [
+    {
+      "_id": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "title": "Dune: Part Two",
+      "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+      "genre": [
+        "Sci-Fi",
+        "Adventure",
+        "Action"
+      ],
+      "duration": 166,
+      "rating": 8.6,
+      "language": "English",
+      "releaseDate": "2024-03-01",
+      "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+      "director": "Denis Villeneuve",
+      "cast": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson",
+        "Javier Bardem"
+      ],
+      "status": "now_showing",
+      "certificate": "UA 16+",
+      "createdAt": "2026-11-14T18:21:14.369Z"
+    },
+    {
+      "_id": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "title": "Interstellar",
+      "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft along with a team of researchers to find a new planet for humans.",
+      "genre": [
+        "Sci-Fi",
+        "Drama",
+        "Adventure"
+      ],
+      "duration": 169,
+      "rating": 8.7,
+      "language": "English",
+      "releaseDate": "2014-11-07",
+      "poster": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain",
+        "Michael Caine"
+      ],
+      "status": "now_showing",
+      "certificate": "UA",
+      "createdAt": "2026-11-14T18:21:14.370Z"
+    },
+    {
+      "_id": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "title": "Oppenheimer",
+      "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "duration": 180,
+      "rating": 8.9,
+      "language": "English",
+      "releaseDate": "2023-07-21",
+      "poster": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr."
+      ],
+      "status": "now_showing",
+      "certificate": "A",
+      "createdAt": "2026-11-14T18:21:14.370Z"
+    },
+    {
+      "_id": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "duration": 140,
+      "rating": 8.7,
+      "language": "English",
+      "releaseDate": "2023-06-02",
+      "poster": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=1200&q=80",
+      "director": "Joaquim Dos Santos, Kemp Powers",
+      "cast": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Oscar Isaac",
+        "Daniel Kaluuya"
+      ],
+      "status": "now_showing",
+      "certificate": "U",
+      "createdAt": "2026-11-14T18:21:14.370Z"
+    },
+    {
+      "_id": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "title": "The Dark Knight",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "duration": 152,
+      "rating": 9,
+      "language": "English",
+      "releaseDate": "2008-07-18",
+      "poster": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&w=1200&q=80",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart",
+        "Michael Caine"
+      ],
+      "status": "now_showing",
+      "certificate": "UA",
+      "createdAt": "2026-11-14T18:21:14.370Z"
+    },
+    {
+      "_id": "0079eaf4-ada1-4a97-8bce-12129b86e3c7",
+      "title": "Avatar: Fire and Ash",
+      "description": "The next epic chapter of the Na'vi journey across Pandora, exploring the volcanic Ash People and uncharted territories.",
+      "genre": [
+        "Sci-Fi",
+        "Adventure",
+        "Fantasy"
+      ],
+      "duration": 185,
+      "rating": 8.5,
+      "language": "English",
+      "releaseDate": "2025-12-19",
+      "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+      "banner": "https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?auto=format&fit=crop&w=1200&q=80",
+      "director": "James Cameron",
+      "cast": [
+        "Sam Worthington",
+        "Zoe Saldana",
+        "Sigourney Weaver"
+      ],
+      "status": "coming_soon",
+      "certificate": "UA",
+      "createdAt": "2026-11-14T18:21:14.370Z"
+    }
+  ],
+  "shows": [
+    {
+      "_id": "bbf20a00-15f1-412f-b53c-d7a909cc21b9",
+      "bookedSeats": [
+        "A4",
+        "A5"
+      ],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-14",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "a98645f1-a802-4e8f-8623-fd2c2e3c7c60",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6"
+      ],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-14",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "5162c23e-fdc6-4745-b4ec-9313cf6ce654",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7"
+      ],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-14",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "1617403f-464a-4344-b441-fa70960d556a",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6"
+      ],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-14",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "1b8a023f-ae07-4c16-bdfe-6de1690c8bd3",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7"
+      ],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-14",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "9350cb20-c41c-422c-949d-4a99499d2acd",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7",
+        "D3"
+      ],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-14",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "b26756de-f1cf-4e21-84d1-e0fc7cb91371",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7",
+        "D3",
+        "E9"
+      ],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-14",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "32a29d43-79c0-4cbc-a7a9-a3e62edd88ab",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7"
+      ],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-14",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "1a25864e-b9f8-43f3-ad25-60c29718d10b",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7",
+        "D3"
+      ],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-14",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "55e5b0f1-70ea-4d4a-91ec-e6e7a43084bb",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7",
+        "D3",
+        "E9"
+      ],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-14",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "dc9029c4-bcab-4cf1-a7f2-501614cc4e9f",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7",
+        "D3"
+      ],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-14",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "900d93ae-504d-4d54-a4fd-7e2ea072aeea",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7",
+        "D3",
+        "E9"
+      ],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-14",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "559881ac-9837-4387-9245-3e077cfd80e6",
+      "bookedSeats": [
+        "A4",
+        "A5"
+      ],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-14",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "6ea226a1-be62-4c7d-abdb-988a954f7690",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6"
+      ],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-14",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "91739ac0-2624-4f09-8589-4a4c4cfe884a",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6",
+        "C7",
+        "D3",
+        "E9"
+      ],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-14",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "bc0d36a7-a319-48fd-a79b-ad068f441fda",
+      "bookedSeats": [
+        "A4",
+        "A5"
+      ],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-14",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "f83691c2-fa68-4ac8-a658-1c6edbe0bbb4",
+      "bookedSeats": [
+        "A4",
+        "A5",
+        "C6"
+      ],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-14",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "b4d7be11-01f2-4994-88ed-3c1ce3543ad5",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-15",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "a7d066a0-3129-46a2-b153-a2ee45a5894b",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-15",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "4492127e-a129-44de-bbbc-825b5233c712",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-15",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "f5225536-b5d9-431f-9d21-63793bab54a1",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-15",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "e8b8acf9-3b96-48f6-bf1a-d5fa614c7cb5",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-15",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "0ee12b6b-490e-45ed-9f78-287318ac63a3",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-15",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "fd1bd895-40f2-45c5-b750-d6f113f80987",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-15",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "9b91249d-ec24-4e86-b8ef-1baaf3d8fc77",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-15",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "79c908b4-04b8-459e-87e0-13d8422a6ff3",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-15",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "bafef892-4210-42d2-ad6b-7153906f9a58",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-15",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "655abc61-b1a4-4061-9600-2b22b01033b0",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-15",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "5dad0cef-ea65-4d88-99d6-4f41c4ad9b1d",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-15",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "ed926051-b211-4104-9aef-2722cce047ad",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-15",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "9b278e4a-45d3-4088-b580-174df9c6a522",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-15",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "0b843270-d9eb-44e7-8faa-5ae75fdbb5cb",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-15",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "4089118a-42d2-4496-a6cb-1a57b0263faf",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-15",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "7b0226c5-cfb5-4546-9bdb-e18a9378fc1f",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-15",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "cdf3f5c7-f0db-4631-8ff7-9297a8e24239",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-16",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "8d048899-2682-4b2c-b192-5b52c89d3a41",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-16",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "b8dafcbd-6a13-4b70-bf62-dab6f6f10a09",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-16",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "55349a55-63cc-49dc-9f9b-9bbe04f4e090",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-16",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "d1753693-e977-4e30-99a4-e8efdf7590ff",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-16",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "d763afcd-69e6-4b35-9c41-77651eb9f879",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-16",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "b5f7ff63-ff5b-4d2c-9543-eb69cd289878",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-16",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "dd40d6b2-df30-406f-973a-679d06aa00f0",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-16",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "0dbb785c-bab6-42da-a29a-d5348a4de548",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-16",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.373Z"
+    },
+    {
+      "_id": "b6f0960a-c3b5-4426-ada8-9e10c58833e9",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-16",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "688340d4-255f-4dc9-8057-864d95e7b63b",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-16",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "5636c2ba-2591-492e-b313-f299e3abfdfe",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-16",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "570459d6-6c1b-4b79-8dda-ce10927c380b",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-16",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "925fd2a8-0468-4081-9f6d-7deed493888a",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-16",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "9cf182d4-a17a-421d-bf2e-9c96ec0caaab",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-16",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "894d311b-05bb-494b-b29c-894399f57afe",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-16",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "78aeac8c-faa7-42cc-ae4c-c3adfc2d7ce7",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-16",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "b1466630-bd65-40bc-99d9-93cbcb6f4712",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-17",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "af9536df-f3d9-4cdd-86cf-4811710c2b6d",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-17",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "bbafbc2e-8c5d-4322-b819-e5755afd82ff",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-17",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "ad125faf-defd-4cdc-9686-f98867ff205c",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-17",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "98b3f3ea-bd77-457c-bfcb-558d7e4f6870",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-17",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "6623032a-e440-48ad-ba1f-c8e4ecf813e9",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-17",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "caadba8b-830b-4e6f-9d43-b1c9550cb522",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-17",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "3cae1dd0-2a09-4c49-a2a8-f742d45a0ab6",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-17",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "bacd0349-c476-4c97-ae4c-fe58b579131c",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-17",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "56451c4a-cf2b-4697-a9fc-028aa75f32b2",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-17",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "71ea42e0-b925-4289-9897-c52741a2045b",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-17",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "baa13cbf-3527-4c8a-bcb4-b2726e1b10b7",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-17",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "39e78426-98c4-4ee6-a72e-c303a9b77f9c",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-17",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "cb33fb7f-1dee-4303-b934-e588b52c282f",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-17",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "fc38070c-8f5f-4dc0-856f-bffc0620f3a7",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-17",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "eb551bb3-38dc-4860-81f1-424d4e03afec",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-17",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "f9e68e8b-da19-49ea-b9f0-a68b5fff223c",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-17",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "9d4c5cd9-ac2b-4106-a4ac-3e208c56ab85",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-18",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "1e750cd7-3f96-4a45-9d73-5a1c5e990feb",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-18",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "79d3970d-6dec-4d21-be33-cbe6d3968771",
+      "bookedSeats": [],
+      "movie": "c2ad0777-e892-428f-bb89-5b10d146c299",
+      "movieTitle": "Dune: Part Two",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-18",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "bbba4497-bc54-4337-9332-3bbe1230c6f1",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-18",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "8e7f2a3e-c03a-4475-a2e0-fe264ea7bf78",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-18",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "d702a8dd-9cfd-4492-bb91-1bad9b710384",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-18",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "e0e42dc8-8816-460a-a775-63449c370a20",
+      "bookedSeats": [],
+      "movie": "9c7f7fb8-811d-4a51-ae6d-55aeaf33ba42",
+      "movieTitle": "Interstellar",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-18",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "5e653cf5-cd7c-4d9c-8efe-6986bd522ef7",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-18",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "1f8f878c-f7ca-4888-a885-9301710157f1",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-18",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "11aa5495-9c6d-4324-bdd3-2f28ec75d948",
+      "bookedSeats": [],
+      "movie": "3e48c84a-0126-4333-a9d4-1aeacb114a96",
+      "movieTitle": "Oppenheimer",
+      "screenName": "Audi 3 - VIP Luxe Recliner",
+      "screenType": "VIP Luxe",
+      "showDate": "2026-11-18",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "de422358-49ad-403e-9480-590bb493c73a",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-18",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "6c1ffcb0-88bf-48b8-b517-21e3ca721794",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-18",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "461e0ec2-1503-4ca0-bc9e-40e937380d62",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-18",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "f472ebb7-ca18-4d42-90ab-48b1c35bd84e",
+      "bookedSeats": [],
+      "movie": "4686396f-c2c2-43c1-94f2-1dcbc12c1920",
+      "movieTitle": "Spider-Man: Across the Spider-Verse",
+      "screenName": "Audi 1 - Dolby Atmos 4K",
+      "screenType": "Dolby Atmos",
+      "showDate": "2026-11-18",
+      "showTime": "08:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "b233bfb5-51ee-4a74-a122-324ec0b289bd",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-18",
+      "showTime": "10:00 AM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "b184d498-d030-4647-a507-cd98e9270bc7",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-18",
+      "showTime": "01:30 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    },
+    {
+      "_id": "3f267f8e-637b-4980-a7d4-593b907f88b1",
+      "bookedSeats": [],
+      "movie": "dbe2914d-7ba8-46cc-ad79-57f019ec4fda",
+      "movieTitle": "The Dark Knight",
+      "screenName": "Audi 2 - IMAX Laser 3D",
+      "screenType": "IMAX",
+      "showDate": "2026-11-18",
+      "showTime": "05:00 PM",
+      "ticketPrices": {
+        "platinum": 350,
+        "gold": 250,
+        "silver": 180
+      },
+      "totalSeats": 92,
+      "createdAt": "2026-11-14T18:21:14.374Z"
+    }
+  ],
+  "bookings": []
+}

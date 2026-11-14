@@ -1,0 +1,26 @@
+{
+  "name": "cinema-hall-ticket-booking-system",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Cinema Hall Ticket Booking System with interactive seat selection, showtime management, and digital tickets.",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "npm --prefix backend start",
+    "server:dev": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "client:build": "npm --prefix frontend run build",
+    "build": "npm --prefix frontend run build",
+    "seed": "npm --prefix backend run seed",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "mern",
+    "cinema-booking",
+    "movie-tickets",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
