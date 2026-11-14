@@ -31,50 +31,50 @@ export default function Home({ movies, onSelectMovie, searchQuery, loading }) {
     });
   }, [movies, activeTab, selectedGenre, searchQuery]);
 
-  // Featured Movie for Hero Banner (e.g. Dune or Interstellar)
+  // Featured Movie for Hero Banner
   const featuredMovie = movies.find(m => m.title.includes("Dune")) || movies[0];
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-10">
       {/* Hero Showcase Banner */}
       {featuredMovie && !searchQuery && (
         <div className="relative rounded-3xl overflow-hidden border border-slate-800 bg-slate-900 shadow-2xl">
-          <div className="relative aspect-[21/9] min-h-[360px] sm:min-h-[440px] w-full">
+          <div className="relative aspect-[21/9] min-h-[320px] sm:min-h-[400px] w-full">
             <img
               src={featuredMovie.banner || featuredMovie.poster}
               alt={featuredMovie.title}
               className="w-full h-full object-cover object-center"
             />
             {/* Multi-layered cinematic gradient overlays */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0e17] via-[#0a0e17]/60 to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0a0e17] via-[#0a0e17]/80 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f19] via-[#0b0f19]/70 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#0b0f19] via-[#0b0f19]/80 to-transparent" />
 
             {/* Banner Content */}
-            <div className="absolute inset-0 p-6 sm:p-12 flex flex-col justify-end max-w-2xl space-y-3 sm:space-y-4">
+            <div className="absolute inset-0 p-6 sm:p-10 flex flex-col justify-end max-w-2xl space-y-3">
               <div className="flex items-center gap-2">
                 <span className="flex items-center gap-1 bg-amber-500 text-slate-950 text-xs font-black px-2.5 py-0.5 rounded-full uppercase tracking-wider">
-                  <Flame className="w-3.5 h-3.5 fill-slate-950" /> Featured Blockbuster
+                  <Flame className="w-3.5 h-3.5 fill-slate-950" /> Featured Movie
                 </span>
                 <span className="text-xs bg-slate-900/90 text-slate-300 px-2.5 py-0.5 rounded-full border border-slate-700">
-                  IMAX 3D & Dolby Atmos
+                  {featuredMovie.language || "English"}
                 </span>
               </div>
 
-              <h1 className="font-heading font-black text-3xl sm:text-5xl text-white tracking-tight leading-tight">
+              <h1 className="font-extrabold text-2xl sm:text-4xl text-white tracking-tight leading-tight">
                 {featuredMovie.title}
               </h1>
 
-              <p className="text-xs sm:text-sm text-slate-300 line-clamp-3 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-300 line-clamp-2 leading-relaxed">
                 {featuredMovie.description}
               </p>
 
-              <div className="flex flex-wrap items-center gap-3 pt-2">
+              <div className="flex flex-wrap items-center gap-3 pt-1">
                 <button
                   onClick={() => onSelectMovie(featuredMovie)}
-                  className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-6 py-3 rounded-xl text-xs sm:text-sm flex items-center gap-2 shadow-lg shadow-amber-500/25 transition transform hover:-translate-y-0.5"
+                  className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-5 py-2.5 rounded-xl text-xs sm:text-sm flex items-center gap-2 shadow-lg shadow-amber-500/20 transition transform hover:-translate-y-0.5"
                 >
                   <Play className="w-4 h-4 fill-slate-950" />
-                  Book Tickets Now
+                  Book Tickets
                 </button>
                 <div className="flex items-center gap-3 text-xs text-slate-400 font-medium">
                   <span>⭐ {featuredMovie.rating}/10</span>
@@ -98,7 +98,7 @@ export default function Home({ movies, onSelectMovie, searchQuery, loading }) {
               onClick={() => setActiveTab("now_showing")}
               className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center gap-1.5 ${
                 activeTab === "now_showing"
-                  ? "bg-amber-500 text-slate-950 shadow-md shadow-amber-500/20"
+                  ? "bg-amber-500 text-slate-950 shadow-md"
                   : "bg-slate-900 text-slate-400 hover:text-white border border-slate-800"
               }`}
             >
@@ -110,7 +110,7 @@ export default function Home({ movies, onSelectMovie, searchQuery, loading }) {
               onClick={() => setActiveTab("coming_soon")}
               className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center gap-1.5 ${
                 activeTab === "coming_soon"
-                  ? "bg-rose-500 text-white shadow-md shadow-rose-500/20"
+                  ? "bg-rose-500 text-white shadow-md"
                   : "bg-slate-900 text-slate-400 hover:text-white border border-slate-800"
               }`}
             >
@@ -128,7 +128,7 @@ export default function Home({ movies, onSelectMovie, searchQuery, loading }) {
                 className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap transition ${
                   selectedGenre === genre
                     ? "bg-slate-700 text-white border border-slate-500"
-                    : "bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800/80"
+                    : "bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800"
                 }`}
               >
                 {genre}
@@ -141,15 +141,15 @@ export default function Home({ movies, onSelectMovie, searchQuery, loading }) {
       {/* Movies Grid */}
       {loading ? (
         <div className="py-20 flex flex-col items-center justify-center text-slate-400 gap-3">
-          <div className="w-10 h-10 border-4 border-amber-500 border-t-transparent rounded-full animate-spin" />
-          <p className="text-xs">Loading cinema showtimes...</p>
+          <div className="w-8 h-8 border-3 border-amber-500 border-t-transparent rounded-full animate-spin" />
+          <p className="text-xs">Loading cinema movies...</p>
         </div>
       ) : filteredMovies.length === 0 ? (
-        <div className="py-20 text-center glass-panel p-8">
-          <Film className="w-12 h-12 text-slate-600 mx-auto mb-3" />
+        <div className="py-16 text-center bg-slate-900 border border-slate-800 rounded-2xl p-8">
+          <Film className="w-10 h-10 text-slate-600 mx-auto mb-2" />
           <h3 className="text-base font-bold text-white">No movies found</h3>
           <p className="text-xs text-slate-400 mt-1">
-            Try adjusting your search query or selecting a different genre filter.
+            Try adjusting your search query or selecting a different genre.
           </p>
         </div>
       ) : (
@@ -165,39 +165,39 @@ export default function Home({ movies, onSelectMovie, searchQuery, loading }) {
       )}
 
       {/* Multiplex Amenities Highlights */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-8">
-        <div className="glass-card p-5 flex items-start gap-3.5">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 flex items-start gap-3.5">
           <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center border border-amber-500/20 flex-shrink-0">
             <Volume2 className="w-5 h-5" />
           </div>
           <div>
-            <h4 className="font-heading font-bold text-sm text-white">Dolby Atmos Sound</h4>
+            <h4 className="font-bold text-sm text-white">Dolby Atmos Sound</h4>
             <p className="text-xs text-slate-400 mt-1">
-              Immersive 64-channel 3D acoustic clarity that puts you in the center of the action.
+              Crystal-clear surround sound delivering an authentic cinema experience.
             </p>
           </div>
         </div>
 
-        <div className="glass-card p-5 flex items-start gap-3.5">
+        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 flex items-start gap-3.5">
           <div className="w-10 h-10 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center border border-rose-500/20 flex-shrink-0">
             <Award className="w-5 h-5" />
           </div>
           <div>
-            <h4 className="font-heading font-bold text-sm text-white">IMAX Laser 4K</h4>
+            <h4 className="font-bold text-sm text-white">4K Laser Projection</h4>
             <p className="text-xs text-slate-400 mt-1">
-              Crystal-clear dual laser projection delivering breathtaking sharpness and colors.
+              High definition vivid colors and deep contrasts on the big screen.
             </p>
           </div>
         </div>
 
-        <div className="glass-card p-5 flex items-start gap-3.5">
+        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 flex items-start gap-3.5">
           <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center border border-emerald-500/20 flex-shrink-0">
             <ShieldCheck className="w-5 h-5" />
           </div>
           <div>
-            <h4 className="font-heading font-bold text-sm text-white">Instant QR Entry</h4>
+            <h4 className="font-bold text-sm text-white">Easy Ticket Booking</h4>
             <p className="text-xs text-slate-400 mt-1">
-              Zero waiting in queues. Show your digital pass on mobile and head straight in.
+              Pick your seats, confirm in seconds, and show your booking ID at entry.
             </p>
           </div>
         </div>
@@ -205,4 +205,3 @@ export default function Home({ movies, onSelectMovie, searchQuery, loading }) {
     </div>
   );
 }
-
