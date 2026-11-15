@@ -1,0 +1,9 @@
+.git
+.vercel
+**/node_modules
+**/.env
+**/.env.*
+!**/.env.example
+frontend/dist
+backend/data/local_db.json
+*.log

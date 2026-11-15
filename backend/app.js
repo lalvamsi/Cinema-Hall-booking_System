@@ -31,6 +31,11 @@ app.use((req, res, next) => {
   next();
 });
 
+const clientBuildPath = path.join(__dirname, "..", "frontend", "dist");
+if (process.env.SERVE_CLIENT === "true") {
+  app.use(express.static(clientBuildPath));
+}
+
 // Initialize DB + auto-seed on first use
 let dbInitialized = false;
 async function initDB() {
@@ -76,6 +81,13 @@ app.get("/api/health", async (req, res) => {
     timestamp: new Date().toISOString()
   });
 });
+
+if (process.env.SERVE_CLIENT === "true") {
+  app.get("*", (req, res, next) => {
+    if (req.path.startsWith("/api/")) return next();
+    res.sendFile(path.join(clientBuildPath, "index.html"));
+  });
+}
 
 // Root info endpoint
 app.get("/", (req, res) => {
